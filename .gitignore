@@ -1,0 +1,14 @@
+!**/src/main/**
+!**/src/test/**
+
+### Maven ###
+mvnw
+mvnw.cmd
+.mvn/
+target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
