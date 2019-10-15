@@ -5,10 +5,25 @@
 mvnw
 mvnw.cmd
 .mvn/
-target/
 
-### IntelliJ IDEA ###
+### IDE's ###
+.classpath
 .idea
-*.iws
+.project
+.settings/
+.vscode/*
 *.iml
 *.ipr
+*.iws
+*.launch
+
+# compiled output
+**/dist
+**/node
+**/node_modules
+**/target
+**/tmp
+
+# misc
+npm-debug.log
+yarn-error.log
